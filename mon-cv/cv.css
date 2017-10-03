@@ -1,0 +1,29 @@
+body{
+	display: -ms-grid;
+	-ms-grid-template-rows: 25% 50% 25%;
+	-ms-grid-template-columns: 25% 50% 25%;
+	background-color:#8abdf0;
+	color:#122e97;
+}
+
+nav{
+	-ms-grid-row: 1;
+	-ms-grid-columns: 1;
+
+}
+
+section{
+	-ms-grid-row: 2;
+	-ms-grid-column: 2;
+	
+}
+
+aside{
+	-ms-grid-row: 1;
+	-ms-grid-column: 3;
+}
+
+article{
+	-ms-grid-row:3;
+	-ms-grid column:2;
+}
