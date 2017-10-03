@@ -1,0 +1,22 @@
+body {
+	text-align:center;
+	font-family:comic sans ms;
+	font size:12px;
+}
+
+a {
+	color:red;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+} 
