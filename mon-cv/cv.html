@@ -1,57 +1,113 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="cv.css" />
+<head>
+	<link rel="stylesheet" href="cv.css" />
+</head>
 
 <title>Mon cv</title>
+
 <body>
-	<nav>
-		<h2>Coordonn&eacute;es</h2>
-		<p>Alonsious Sylviane<br/>
-			Avenue Adolphe Buyl 136<br/>
-			1050 Ixelles<br/>
-			0483/20.61.84<br/>
-			s.alonsious@web-siouss.be</p>
-	</nav>
-	<aside>
-		<h2>Photo</h2>
-		<img src="https://pbs.twimg.com/profile_images/2416047690/d92fyc08taaf2lirckoa_400x400.jpeg" height="150px" />
-	</aside>
-	<section>
-		<div>
-			<h2>Objectifs</h2>
-			<p>Cr&eacute;er une collaboration avec vous et acqu&eacute;rir de l'exp&eacute;rience.</p>
-		</div>
+<div class="title">
+<h1>ALONSIOUS SYLVIANE</h1>
+<h4>JUNIOR WEB-DEVELOPPEUSE</h4>
+</div>
 
-		<div>
-			<h2>Etudes</h2>
-			<ul>
-				<li>Junior Web Developer chez BeCode.org</li>
-				<li>BES WebDeveloppement à l'IESCF Uccle</li>
-				<li>Informatique de gestion à l'ISFCE Etterbeek</li>
-				<li>Technicienne micro-informatique à FIJ St-Gilles</li>
-			</ul>
-		</div>
+<div class="menu">
+		<a href="#contact"><button>A PROPOS</button></a>
+		<a href="#competence"><button>COMPETENCES</button></a>
+		<a href="#experience"><button>EXPERIENCE</button></a>
+		<a href="#formation"><button>FORMATION</button></a>
+</div>
+<div class="social">
+	<a href="http://web-siouss.be"><img src="img/www.png" height=30px /></a>
+	<a href="www.facebook.com"><img src="img/facebook.jpg" height=30px/></a>
+	<a href="www.github.com"><img src="img/git.png" height=30px /></a>
+	<a href="www.linkedin.com"><img src="img/linkedin.jpg" height=30px /></a>
+</div>
 
-		<div>
-			<h2>Exp&eacute;riences</h2>
-			<ul>
-				<li>Stagiaire Web-Developer à l'ULB</li>
-				<li>Agent Call-center administratif et technique durant 10 ans</li>
-				<li>R&eacute;paration pc depuis 15 ans</li>
-				<li>Cr&eacute;ation de site-web sur web-siouss</li>
-				<li>Cours informatique donn&eacute; depuis 3 ans</li>
-			</ul>
-		</div>
-	</section>
-	<article>
-		<h2>Loisirs</h2>
-		<ul>
-			<li>Cin&eacute;ma</li>
-			<li>Natation</li>
-			<li>Lecture</li>
-			<li>Jardinage</li>
-			<li>Cuisine</li>
-		</ul>
-	</article>
+<div class="contact">
+	<button id="contact">A PROPOS</button>
+	<table>
+		<tr>
+			<td>Identit&eacute;:</td><td>Alonsious Sylviane</td>
+		</tr>
+		<tr>
+			<td>Naissance:</td><td>09-06-1982</td>
+		</tr>
+		<tr>
+			<td>Localit&eacute;:</td><td>Ixelles 1050</td>
+		</tr>
+		<tr>
+			<td>Web:</td><td>http://web-siouss.be</td>
+		</tr>
+		<tr>
+			<td>Gsm:</td><td>0483/20.61.84</td>
+		</tr>	
+		<tr>
+			<td>Mail:</td><td>s.alonsious@web-siouss.be</td>
+		</tr>
+	</table>
+</div>
+
+<div class="objectif">
+	<hr/>
+	<img src="img/moi.png" height="150px">
+	<p>"Trouver un emploi agrave; temps plein dans une soci&eacute;t&eacute; ou je pourrai acqu&eacute;rir toujours plus d'exp&eacute;riences"</p>
+	<hr/>
+</div>
+
+<div class="competences">
+	<button id="competences">COMPETENCES</button>
+	<div class="competences2">
+	<div id="skill1" align="center" margin-top:40px>HTML</div>
+	<div id="skill2" align="center">PHP</div>
+	<div id="skill3" align="center">JS</div>
+	<div id="skill4" align="center">FRAMEWORK</div>
+	<div id="skill5" align="center">CMS</div>
+	</div>
+</div>
+
+<div class="experience">
+	<button id="experience">EXPERIENCE</button>	<hr/>
+	<table>
+		<tr>
+			<td></td><td></td><td><button>2002 - 2014</button></td>
+		</tr>
+		<tr>
+			<td><img src="img/icon.png" height="50px"/></td><td>Call center</td><td>Agent call-center niveau 1 - 2 - 3 niveau technique et administratif, gestion portefeuille clients</td>
+		</tr>
+		<tr>
+			<td></td><td></td><td><button>2001 - 2017</button></td>
+		</tr>
+		<tr>
+			<td><img src="img/icon.png" height="50px"/></td><td>D&eacute;pannages Informatique</td><td>D&eacute;pannages informatique et cours d'informatique pour particuliers</td>
+		</tr>
+	</table>
+ </div>
+
+<div class="formation">
+	<button id="formation">FORMATION</button><hr/>
+	<table>
+		<tr>
+			<td></td><td></td><td><button>2017-2018</button></td>
+		</tr>
+		<tr>
+			<td><img src="img/icon.png" height="50px"/></td><td>Becode.org</td><td>Junior Web-Developper chez Becode &agrave; Bruxelles</td>
+		</tr>
+		<tr>
+			<td></td><td></td><td><button>2015 - 2017</button></td>
+		</tr>
+		<tr>
+			<td><img src="img/icon.png" height="50px"/></td><td>Web-developpement</td><td>BES en Web-developpement chez ISFCE &agrave; Uccle</td>
+		</tr>
+		<tr>
+			<td></td><td></td><td><button>2000 - 2001</button></td>
+		</tr>
+		<tr>
+			<td><img src="img/icon.png" height="50px"/></td><td>Technicienne informatique</td><td>Technicienne en micro-informatique chez FIJ &agrave; St-Gilles</td>
+		</tr>
+	</table>
+</div>
+
 </body>
 </html>
