@@ -1,0 +1,50 @@
+@keyframes carimation{
+	0%, 20%, 100%{
+		left: 0px;
+	}
+
+	25%, 45%{
+		left: -900px;
+	}
+
+	50%, 70%{
+		left: -1800px;
+
+	}
+
+	75%, 95%{
+		left: -2700px;
+	}
+}
+
+.slideshow {
+	position: absolute;
+	width: 900px;
+	height: 400px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.img1, .img2, .img3, .img4{
+	position:absolute;
+	width:900px;
+	height:400px;
+}
+.img1{left:0;}
+.img2{left:900px;}
+.img3{left:1800px;}
+.img4{left:2700px;}
+
+.content{
+	position: absolute;
+	top:0;
+	left:0;
+	width:900px;
+	height:400px;
+	margin:0;
+	padding:0;
+	animation-name: carimation;
+	animation-duration: 32s;
+	animation-iteration-count: infinite;
+}
+
