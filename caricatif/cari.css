@@ -1,9 +1,9 @@
 body{
-	width:1050px;
-	height:2000px;
+	width:1000px;
+	height:2800px;
 	display:-ms-grid; 
-	-ms-grid-template-row: 450px 100px 300px 300px 400px 300px 150px; 
-	-ms-grid-template-column:700px 300px;
+	-ms-grid-template-row: 400px 400px 400px 400px 400px 400px 400px; 
+	-ms-grid-template-column:1000px;
 	margin:auto;	
 }
 
@@ -13,22 +13,22 @@ body{
 	}
 
 	25%, 45%{
-		left: -900px;
+		left: -1000px;
 	}
 
 	50%, 70%{
-		left: -1800px;
+		left: -2000px;
 
 	}
 
 	75%, 95%{
-		left: -2700px;
+		left: -3000px;
 	}
 }
 
 .slideshow {
 	position: relative;
-	width: 900px;
+	width: 1000px;
 	height: 400px;
 	margin: 20px auto;
 	overflow: hidden;
@@ -39,24 +39,24 @@ body{
 	box-shadow: 0 0 3px white;
 	text-align:center;
 	-ms-grid-row:1;
-	-ms-grid-column: 1 / span 3;
+	-ms-grid-column:1;
 }
 
 .img1, .img2, .img3, .img4{
 	position:absolute;
-	width:900px;
+	width:1000px;
 	height:400px;
 }
 .img1{left:0;}
-.img2{left:900px;}
-.img3{left:1800px;}
-.img4{left:2700px;}
+.img2{left:1000px;}
+.img3{left:2000px;}
+.img4{left:3000px;}
 
 .content{
 	position: absolute;
 	top:0;
 	left:0;
-	width:900px;
+	width:1000px;
 	height:400px;
 	margin:0;
 	padding:0;
@@ -68,8 +68,12 @@ body{
 nav{
 	position:relative;
 	-ms-grid-row:2;
-	-ms-grid-column: 1 / span 2;
+	-ms-grid-column: 1;
+	text-align:center;
+	width:850px;
+	height:100px;
 }
+
 
 ul#menu-horizon li{
 	display :inline;
@@ -85,3 +89,80 @@ ul#menu-horizon{
 	-ms-grid-row:3;
 	-ms-grid-column:1;
 }
+
+.p2{
+	margin-left:350px;
+}
+
+.video{
+	position:absolute;
+	-ms-grid-row:3;
+	-ms-grid-column:1;
+	width:300px;
+	height:300px;
+	margin-left:700px;
+	margin-right:0px;
+}
+
+.cause{
+	position:relative;
+	-ms-grid-row:4;
+	-ms-grid-column:1;
+	text-align:left;
+}
+
+.carte{
+	position:relative;
+	-ms-grid-row:5;
+	-ms-grid-column:1;
+	width:1000px;
+	height:400px;
+}
+
+.agir{
+	-ms-grid-row:6;
+	-ms-grid-column:1;
+}
+
+.a1{
+	
+	position:absolute;
+	width:400px;
+	height:300px;
+	text-align:justify;
+}
+
+.a2{
+	position:relative;
+	width:400px;
+	height:300px;
+	margin-left:500px;
+	margin-right:0px;
+	margin-top:40px;
+	text-align:justify;
+}
+
+footer{
+	position:relative;
+	-ms-grid-row:7;
+	-ms-grid-column:1;
+}
+
+.social{
+	text-align:center;
+	margin-top:250px;
+}
+
+.autres h1, h2, h3, h4, h5, h6{
+	display:inline;
+	text-align:center;
+}
+
+.autres{
+	margin-top:50px;
+	margin-left:250px;
+	margin-right:250px;
+}
+
+
+
