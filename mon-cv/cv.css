@@ -1,141 +1,161 @@
-body{
-	width:600px;
-	height:800px;
-	background-color:#a6d1f4;
-	display:-ms-grid; 
-	-ms-grid-template-row: 100px 100px 100px 100px 100px 100px 100px 100px; 
-	-ms-grid-template-column:300px 300px;
-}
+/* Corps de la page */
 
-.title{
-	-ms-grid-row:1;
-	-ms-grid-column:1;
-	margin-top:10px;
-	padding-bottom:10px;
-}
-.menu{
-	-ms-grid-row:2;
-	-ms-grid-column:1;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+	body{
+		width:600px;
+		height:800px;
+		background-color:#a6d1f4;
+		display:-ms-grid; 
+		-ms-grid-template-row: 100px 100px 100px 100px 100px 100px 100px 100px; 
+		-ms-grid-template-column:300px 300px;
+		margin:auto;
+		text-align:left;
+	}
 
-.social{
-	-ms-grid-row:3;
-	-ms-grid-column:2;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+/* Bloc présentation */
 
+	.title{
+		-ms-grid-row:1;
+		-ms-grid-column:1;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
 
-.contact{
-	-ms-grid-row:4;
-	-ms-grid-column:1;
-	margin-top:10px;	
-	padding-bottom:10px;
-}
+/* Bloc menu */
 
-.objectif{
-	-ms-grid-row:4;
-	-ms-grid-column:2;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+	.menu{
+		-ms-grid-row:2;
+		-ms-grid-column:1;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
 
-.competences{
-	-ms-grid-row:5;
-	-ms-grid-column:1;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+/* Bloc social */
 
-.competences2{
-	display:flex;
-	flex-direction: row;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+	.social{
+		-ms-grid-row:3;
+		-ms-grid-column:2;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
 
-#skill1{
-	height:70px;
-	width:120px;
-	margin:auto;
-	border-radius:50%;
-	border: 3px solid;
-	background:#f1a28f;
-	background: -webkit-radial-gradient(#d9fad8 30%, #f1a28f 70%);
-	background: -o-radial-gradient(#d9fad8 30%, #f1a28f 70%);
-	background: -moz-radial-gradient(#d9fad8 30%, #f1a28f 70%);
-	background: radial-gradient(#d9fad8 30%, #f1a28f 70%);
-	padding-top:50px;	
-}
+/* Bloc contact */
 
-#skill2{
-	height:70px;
-	width:120px;
-	margin:auto;
-	border-radius:50%;
-	border: 3px solid;
-	background:#d9fad8;
-	background: -webkit-radial-gradient(#e7e241 60%, #d9fad8 40%);
-	background: -o-radial-gradient(#e7e241 60%, #d9fad8 40%);
-	background: -moz-radial-gradient(#e7e24160%, #d9fad840%);
-	background: radial-gradient(#e7e241 60%, #d9fad8 40%);
-	padding-top:50px;
-}
+	.contact{
+		-ms-grid-row:4;
+		-ms-grid-column:1;
+		margin-top:10px;	
+		padding-bottom:10px;
+	}
 
-#skill3{
-	height:70px;
-	width:120px;
-	margin:auto;
-	border-radius:50%;
-	border: 3px solid;
-	background:#cdf9e4;
-	background: -webkit-radial-gradient(#6e78ec 80%, #cdf9e4 20%);
-	background: -o-radial-gradient(#6e78ec 80%, #cdf9e4 20%);
-	background: -moz-radial-gradient(#6e78ec 80%, #cdf9e4 20%);
-	background: radial-gradient(#6e78ec 80%, #cdf9e4 40%);
-	padding-top:50px;
-}
+/* Bloc objectif */
 
-#skill4{
-	height:70px;
-	width:120px;
-	margin:auto;
-	border-radius:50%;
-	border: 3px solid;
-	background:#b1bcf5;
-	background: -webkit-radial-gradient(#c76eec 70%, #b1bcf5 30%);
-	background: -o-radial-gradient(#c76eec70%, #b1bcf5 30%);
-	background: -moz-radial-gradient(#c76eec 70%, #b1bcf5 30%);
-	background: radial-gradient(#c76eec 70%, #b1bcf5 30%);
-	padding-top:50px;
-}
+	.objectif{
+		-ms-grid-row:4;
+		-ms-grid-column:2;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
 
-#skill5{
-	height:70px;
-	width:120px;
-	margin:auto;
-	border-radius:50%;
-	border: 3px solid;
-	background:#f0a6f4;
-	background: -webkit-radial-gradient(#d9fad8 70%, #f0a6f4 30%);
-	background: -o-radial-gradient(#d9fad8 50%, #f0a6f4 50%);
-	background: -moz-radial-gradient(#d9fad8 50%, #f0a6f4 50%);
-	background: radial-gradient(#d9fad8 50%, #f0a6f4 50%);
-	padding-top:50px;
-}
+/* Bloc compétences */
 
-.experience{
-	-ms-grid-row:6;
-	-ms-grid-column:1;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+	.competences{
+		-ms-grid-row:5;
+		-ms-grid-column:1;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
 
-.formation{
-	-ms-grid-row:7;
-	-ms-grid-column:1;
-	margin-top:10px;
-	padding-bottom:10px;
-}
+	.competences2{
+		display:flex;
+		flex-direction: row;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
+
+	#skill1{
+		height:70px;
+		width:120px;
+		margin:auto;
+		border-radius:50%;
+		border: 3px solid;
+		background:#f1a28f;
+		background: -webkit-linear-gradient(#d9fad8 30%, #f1a28f 70%);
+		background: -o-linear-gradient(#d9fad8 30%, #f1a28f 70%);
+		background: -moz-linear-gradient(#d9fad8 30%, #f1a28f 70%);
+		background: linear-gradient(#d9fad8 30%, #f1a28f 70%);
+		padding-top:50px;	
+	}
+
+	#skill2{
+		height:70px;
+		width:120px;
+		margin:auto;
+		border-radius:50%;
+		border: 3px solid;
+		background:#d9fad8;
+		background: -webkit-linear-gradient(#e7e241 60%, #d9fad8 40%);
+		background: -o-linear-gradient(#e7e241 60%, #d9fad8 40%);
+		background: -moz-linear-gradient(#e7e24160%, #d9fad840%);
+		background: linear-gradient(#e7e241 60%, #d9fad8 40%);
+		padding-top:50px;
+	}
+
+	#skill3{
+		height:70px;
+		width:120px;
+		margin:auto;
+		border-radius:50%;
+		border: 3px solid;
+		background:#cdf9e4;
+		background: -webkit-linear-gradient(#6e78ec 80%, #cdf9e4 20%);
+		background: -o-linear-gradient(#6e78ec 80%, #cdf9e4 20%);
+		background: -moz-linear-gradient(#6e78ec 80%, #cdf9e4 20%);
+		background: linear-gradient(#6e78ec 80%, #cdf9e4 40%);
+		padding-top:50px;
+	}
+
+	#skill4{
+		height:70px;
+		width:120px;
+		margin:auto;
+		border-radius:50%;
+		border: 3px solid;
+		background:#b1bcf5;
+		background: -webkit-linear-gradient(#c76eec 70%, #b1bcf5 30%);
+		background: -o-linear-gradient(#c76eec70%, #b1bcf5 30%);
+		background: -moz-linear-gradient(#c76eec 70%, #b1bcf5 30%);
+		background: linear-gradient(#c76eec 70%, #b1bcf5 30%);
+		padding-top:50px;
+	}
+
+	#skill5{
+		height:70px;
+		width:120px;
+		margin:auto;
+		border-radius:50%;
+		border: 3px solid;
+		background:#f0a6f4;
+		background: -webkit-linear-gradient(#d9fad8 50%, black 2%, #f0a6f4 48%);
+		background: -o-linear-gradient(#d9fad8 50%, black 2%, #f0a6f4 48%);
+		background: -moz-linear-gradient(#d9fad8 50%, black 2%, #f0a6f4 48%);
+		background: linear-gradient(#d9fad8 50%, black 2%, #f0a6f4 48%);
+		padding-top:50px;
+	}
+
+/* Bloc expériences */
+
+	.experience{
+		-ms-grid-row:6;
+		-ms-grid-column:1;
+		margin-top:10px;
+		padding-bottom:10px;
+	}
+
+/* Bloc formation */
+
+	.formation{
+		-ms-grid-row:7;
+		-ms-grid-column:1;
+		margin-top:10px;
+		padding-bottom:10px;
+	}

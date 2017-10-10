@@ -1,34 +1,46 @@
-body{
-	display:-ms-grid;
-	-ms-grid-template-rows: 33% 33% 33%;
-	-ms-grid-template-columns: 33% 33% 33%;
-	background-color:#8c111d;
-	color:white;
-	height: 25%;
-	width:80%;
-}
+/* Corps de la page */
 
-aside{
-	-ms-grid-row:1;
-	-ms-grid-column: 1;	
-}
+	body{
+		display:-ms-grid;
+		-ms-grid-template-rows: 33% 33% 33%;
+		-ms-grid-template-columns: 33% 33% 33%;
+		background-color:#8c111d;
+		color:white;
+		height: 25%;
+		width:80%;
+	}
 
-article{
-	-ms-grid-row:3;
-	-ms-grid-column:2;	
-}
+/* Bloc image */
 
-#name{
-	-ms-grid-row:1;
-	-ms-grid-column:2;
-}
+	aside{
+		-ms-grid-row:1;
+		-ms-grid-column: 1;	
+	}
 
-.first{
-	-ms-grid-row:2;
-	-ms-grid-column:2;
-}
+/* Bloc présentation */
 
-.sec{
-	-ms-grid-row:2;
-	-ms-grid-column:3
-}
+	#name{
+		-ms-grid-row:1;
+		-ms-grid-column:2;
+	}
+
+/* Bloc coordonnées 1 */
+
+	.first{
+		-ms-grid-row:2;
+		-ms-grid-column:2;
+	}
+
+/* Bloc coordonnées 2 */
+
+	.sec{
+		-ms-grid-row:2;
+		-ms-grid-column:3
+	}
+
+/* Bloc social */
+
+	article{
+		-ms-grid-row:3;
+		-ms-grid-column:2;	
+	}
