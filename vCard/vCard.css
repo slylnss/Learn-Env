@@ -4,10 +4,13 @@
 		display:-ms-grid;
 		-ms-grid-template-rows: 33% 33% 33%;
 		-ms-grid-template-columns: 33% 33% 33%;
+		width:100%;
+	}
+
+	.vcard{
 		background-color:#8c111d;
 		color:white;
-		height: 25%;
-		width:80%;
+		width:100%;
 	}
 
 /* Bloc image */
@@ -15,13 +18,18 @@
 	aside{
 		-ms-grid-row:1;
 		-ms-grid-column: 1;	
+		margin-left:25%;
 	}
 
 /* Bloc présentation */
 
 	#name{
 		-ms-grid-row:1;
-		-ms-grid-column:2;
+		-ms-grid-column:2;		
+	}
+
+	#name h4, h1{
+		text-align:center;
 	}
 
 /* Bloc coordonnées 1 */

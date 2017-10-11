@@ -14,7 +14,7 @@
 		margin:auto;
 	}
 
-/* Lien href*/
+/* Lien href */
 
 	a {
 		color:red;
@@ -28,13 +28,12 @@
 	}
 
 	button{
-	    width: 200px;
-	    height: 200px;
+	    width: 300px;
+	    height: 300px;
 	    background-color: red;
 	    animation-name: bouton;
 	    animation-duration: 4s;
 		transform-origin:center bottom;
-		transform:perspective(400px) rotateX(30deg);
 	} 
 
 	.retour{

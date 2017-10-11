@@ -47,3 +47,10 @@
 		50%	{opacity:1;}
 		100%{top:0; opacity:0;}
 	}
+
+/* Lecteur audio */
+
+	.audio{
+		width:100px;
+		height:50px;	
+	}
